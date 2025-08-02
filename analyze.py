@@ -1,4 +1,4 @@
-# analyze.py - reads numbers.txt and calculates sum abd average
+# analyze.py - reads numbers.txt and calculates sum and average
 
 with open("numbers.txt") as f:
 	numbers = [int(line.strip()) for line in f if line.strip().isdigit()]
